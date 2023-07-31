@@ -20,3 +20,12 @@ const sumar2= function(){
 // called the function
 
 sumar2();
+
+// the third way
+
+//IIFE
+(function(){
+
+        console.log(40+1);
+} )();
+// called the function
